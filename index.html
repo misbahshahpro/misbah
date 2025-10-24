@@ -1,78 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mera Simple Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #0078D7;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0078D7;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      background-color: white;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #0078D7;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-<!-- Headings -->
-    <h1>Welcome to My Introduction Page</h1>
-    <h2>About Me</h2>
+  <header>
+    <h1>Mera Simple Website</h1>
+    <p>Ek basic HTML page ka example</p>
+  </header>
 
-<!-- Paragraphs and Line Break -->
-    <p>Hello, my name is <strong> Misbah</strong></strong>. <br> I am learning <em>HTML, CSS, and JavaScript</em> step by step.</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-<!-- Text Formatting -->
-    <p><b>Bold Text</b> vs <strong>Strong Text (important)</strong></p> <p><u>Underlined</u>, <mark>Highlighted</mark>, <small>Small text</small></p>
-    <p>Water Formula: H<sub>2</sub>O | Square: x<sup>2</sup></p>
+  <section id="home">
+    <h2>Home</h2>
+    <p>Yeh mera simple website ka home section hai. Aap yahan apni information likh sakte hain.</p>
+  </section>
 
-<!-- Preformatted & Code -->
-    <h3>Preformatted Example:</h3>
-    <pre>
-        Line 1: Hello World
-        Line 2: This keeps spaces and line breaks
-    </pre>
-    <h3>Code Example:</h3>
-    <p>Here is some inline code: <code>console.log("Hello HTML");</code></p>
+  <section id="about">
+    <h2>About</h2>
+    <p>Yeh section aapke baare mein batata hai. Aap likh sakte hain aap kya karte hain ya kis purpose ke liye website hai.</p>
+  </section>
 
-<!-- Lists -->
-<h3>My Favorite Foods</h3>
-    <ul>
-        <li>Biryani</li>
-        <li>Pizza</li>
-        <li>Burger</li>
-    </ul>
-<h3>My Top 3 Movies</h3>
-    <ol>
-        <li>Inception</li>
-        <li>Interstellar</li>
-        <li>The Dark Knight</li>
-    </ol>
-<!-- Nested List -->
-<h3>Daily Routine</h3>
-    <ul>
-        <li>Morning
-        <ul>
-            <li>Wake up</li>
-            <li>Exercise</li>
-        </ul>
-        </li>
-        <li>Evening
-            <ol>
-                <li>Study</li>
-                <li>Practice Coding</li>
-            </ol>
-        </li>
-    </ul>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Agar aapko contact karna hai, to niche form bharen:</p>
+    <form onsubmit="alert('Form submitted (demo only)'); return false;">
+      <input type="text" placeholder="Naam" required><br><br>
+      <input type="email" placeholder="Email" required><br><br>
+      <textarea placeholder="Message" rows="4" required></textarea><br><br>
+      <button type="submit">Bhejein</button>
+    </form>
+  </section>
 
-
-<!-- Links -->
-<h3>My Favorite Websites</h3>
-<p>
-    <a href="https://www.google.com/" target="_blank">Google</a><br>
-    <a href="https://www.youtube.com" target="_blank">YouTube</a><br>
-    <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
-</p>
-
-<!-- Images -->
-
-<h3>My Profile Picture</h3>
-    <img src="Girl.png" alt="My Profile Photo" width="200" height="200">
-
-<h3>Images Gallery</h3>
-    <img src="firedrice.jpg" alt="" height="400">
-    <img src="" alt="">
-    <img src="" alt="">
+  <footer>
+    <p>© 2025 Mera Simple Website</p>
+  </footer>
 </body>
-</html> 
+</html>
