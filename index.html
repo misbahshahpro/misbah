@@ -1,69 +1,36 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Chapter 7: Hyperlinks(Anchors)</title>
-</head>
-<body>
-<h1>Chapter7:Hyperlinks (Anchors)</h1>
-<P>in this project, you will learn how to create different types of hyperlinks in HTML using the <b>&it;a&gt;</b></P>
-<hr>
-<h2>1. Creating simple linkn</h2>
-<p>syntax:<code>&it;a href="URL"&gt;Link Text&it;/a&gt;</code></p>
-<p>Example:</p>
-<a href="'https://WWW.google.com">visit google</a>
-<hr>
-<h2>2. Target Attribute</h2>
-<p>The <b>target</b>attribute specifies where the link will open:</p>
-<ul>
-<li><b>_self</b>-opens in the same tab (default)</li>
-<li><b>_blank</b>-opens in a new tab or window</li>
-<li><b>_parent</b>-opens in the parent frame</li>
-<li><b>_top</b>-opens in the fulln window, removing frames</li>
-</ul>
-<p>Example:</p>
-<a href="https://WWW.wikipedia.org" target="_blank">open Wikipedia in new tab</a>
-<hr>
-<h2>3. Linking External Websites </h2>
-<a href="https://WWW.facebook.com" target="_blank">go to facebook</a>
-<hr>
-<h2>4. Linking internal page</h2>
-<a href="about. html">About us</a>
-<a href="contact.html">contact page</a>
-<hr>
-<h2>5. Linking to page section (#id)</h2>
-<p>click the link to jump to section 2:</p>
-<a href="#section2">go to section </a>
-<h2 id="section2">section 2</h2>
-<P>This is the content of section 2</P>
-<hr>
-<h2>6. Email amd phon Links</h2>
-<p>Emails Link:</p>
-<a href="mailto:misbah.shah.pro@gmail.com">send email</a>
-<p>phone link:</p>
-<a href="tel:+918308493475">call now</a>
-<hr>
-<h2>7. Download Attribute</h2>
-<p>Make the browser download a file</p>
-<a href="files/resume.pdf" download>Download Resume</a>
-<hr>
-<h2>8. Reletive vs absoiute URLs</h2>
-<p>Relative URL (same website/folder):</p>
-<a href="about.html">about page</a>
-<a href="https://WWW.example.com/about.html">about page</a>
-<hr>
-<h2>practice Task 2</h2>
-<p>create 3 links: one opening in the same tab, one in a new tab, and one linking to a section on the same page.</p>
-<h2>practice Task 2</h2>
-<p>create one email link and one phone link for practice.</p>
-
-<h2>practice Task 3</h2>
-<p>create a download link for a sample file (e.g.,"notes.pdf").</p>
-<hr>
-<h3>self-check Questions:</h3>
-<ol><li>Which attribute opens a link in a new tab?</li>
-  <li>What is the Diffrent between relative and absolute URLs?</li>
-  <li>How do you link to a specific section within the same page?</li>
-  <li>How do you make a clickable email link?</li>
-  </ol>
-  </body>
-  </html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="deccription" content="My restaurant-Delicious food and fast delivery"> 
+        <meta name="keywords" content="restaurant, food,pizza,burger,meal">
+        <meta name="author" content="shahmisbah">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My restaurant</title>
+        </head>
+        <body>
+            <header><h1>Welcome to MY Restaurant</h1></header>
+            <nav>
+                <a href="index.html">Home</a>|
+                <a href="about.html">About</a>|
+                <a href="services.html">services</a>|
+                <a href="contact.html">contact</a>
+            </nav>
+            <main>
+                <section>
+                    <h2>Our special Dishes</h2>
+                    <p>We serve freshly made meals with love and taste. Check out our specialties below!</p>
+                    <img src="pancakes-2291908_1280.jpg"alt=Delicious food"width="100">
+  </section>
+  <section><h2>Watch our kitchen in action</h2>
+    <video Width="400" controls>
+        <source src="233024_small.mp4" type="video/mp4"
+ </section>
+            </main>
+            <footer>
+                <p>2025 My restaurant|All rights Reserved</p>
+            </footer>
+        </body>
+    
+</html>
+              
