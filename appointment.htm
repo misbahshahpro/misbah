@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment - Al Shifa Nus Multi Therapy Center</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Book your appointment with Dr. Ayyub Shah Pathan at Al Shifa Nus Multi Therapy Center, Aurangabad. Get 40% discount on all medical and therapy treatments.">
+  <meta name="keywords" content="Al Shifa Nus, Therapy Center, Aurangabad, Appointment, Discount, Dr Ayyub Shah Pathan, Sujok Therapy, Acupuncture, Healing, Natural Therapy">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #e3f2fd, #ffffff);
+      color: #333;
+    }
+    header {
+      background: #1565c0;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #0d47a1;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #ffeb3b;
+    }
+    .offer {
+      background: #ffeb3b;
+      color: #0d47a1;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+      font-size: 18px;
+      border-bottom: 2px solid #0d47a1;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #1565c0;
+      margin-bottom: 25px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, select, textarea {
+      padding: 12px;
+      font-size: 16px;
+      border: 1px solid #90caf9;
+      border-radius: 8px;
+      outline: none;
+      transition: 0.3s;
+    }
+    input:focus, select:focus, textarea:focus {
+      border-color: #1565c0;
+      box-shadow: 0 0 5px rgba(21,101,192,0.4);
+    }
+    button {
+      background: #1565c0;
+      color: white;
+      padding: 12px;
+      font-size: 17px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #0d47a1;
+    }
+    footer {
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+      .container {
+        margin: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Book Your Appointment</h1>
+    <p>Al Shifa Nus Multi Therapy Center, Aurangabad</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="appointment.html">Appointment</a>
+  </nav>
+
+  <!-- 🔥 Special Offer Section -->
+  <div class="offer">
+    🎉 Special Offer: Get <strong>40% Discount</strong> on all Medical & Therapy Treatments when you book your appointment today!
+  </div>
+
+  <div class="container">
+    <h2>अपॉइंटमेंट बुक करें</h2>
+    <form id="appointmentForm" action="#" method="post">
+      <input type="text" name="name" placeholder="पूरा नाम" required>
+      <input type="tel" name="phone" placeholder="मोबाइल नंबर" required>
+      <input type="date" name="date" required>
+      <select name="therapy" required>
+        <option value="">थैरेपी चुनें</option>
+        <option value="Sujok Therapy">Sujok Therapy</option>
+        <option value="Acupuncture">Acupuncture</option>
+        <option value="Skin Treatment">Skin Treatment</option>
+        <option value="Hair Growth">Hair Growth</option>
+        <option value="Pain Relief">Pain Relief</option>
+      </select>
+      <textarea name="message" rows="4" placeholder="अपनी समस्या या मैसेज लिखें..."></textarea>
+      <button type="submit">अपॉइंटमेंट सबमिट करें</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2025 Al Shifa Nus Multi Therapy Center | Designed with ❤️ by Misbah</p>
+  </footer>
+
+  <script>
+    document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('आपका अपॉइंटमेंट सफलतापूर्वक बुक हो गया है! 🎉 आपको 40% डिस्काउंट मिलेगा। धन्यवाद 🙏');
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
+
+   
