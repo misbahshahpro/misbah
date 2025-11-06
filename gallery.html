@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Al Shifa Nus Multi Therapy Center</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Gallery of Al Shifa Nus Multi Therapy Center - View photos and treatment videos by Dr. Ayyub Shah Pathan in Aurangabad.">
+  <meta name="keywords" content="Al Shifa Nus, Therapy Center, Aurangabad, Gallery, Sujok, Acupuncture, Dr Ayyub Shah Pathan, Natural Healing">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(120deg, #f1f8e9, #ffffff);
+      color: #333;
+    }
+    header {
+      background: #8bc34a;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    nav {
+      background: #558b2f;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #cddc39;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #33691e;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .video-section, .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    iframe, video {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .image-gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .image-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #33691e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+      .container {
+        margin: 15px;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gallery</h1>
+    <p>Our Therapies and Treatment Sessions</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="appointment.html">Appointment</a>
+  </nav>
+
+  <div class="container">
+    <h2>थैरेपी से जुड़ी वीडियो और फ़ोटो</h2>
+
+    <!-- Video Section -->
+    <div class="video-section">
+      <video controls poster="video2.mp4">
+        <source src="video2.mp4" type="video/mp4">
+        आपका ब्राउज़र वीडियो प्ले नहीं कर सकता।
+      </video>
+
+      <video controls poster="video3.mp4">
+        <source src="video3.mp4" type="video/mp4">
+        आपका ब्राउज़र वीडियो प्ले नहीं कर सकता।
+      </video>
+    </div>
+
+    <h2 style="margin-top:40px;">फ़ोटो गैलरी</h2>
+
+    <!-- Image Gallery -->
+    <div class="image-gallery">
+      <img src="images/photo1.jpg" alt="Therapy Room">
+      <img src="image1.jpg" alt="Dr. Ayyub Shah Pathan">
+      <img src="images/photo3.jpg" alt="Patient Treatment">
+      <img src="images/photo4.jpg" alt="Sujok Therapy Session">
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Al Shifa Nus Multi Therapy Center | Designed with ❤️ by Misbah</p>
+  </footer>
+
+</body>
+</html>
